@@ -28,7 +28,7 @@ class Funcinario{
     
 }
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         //funcionarios
         Funcinario joao = new Funcinario();
