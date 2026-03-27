@@ -89,6 +89,6 @@ public class ex2calculadora {
     public static void main(String[] args) {
         Calculadora cal = new Calculadora(5,3);
         System.out.println("Soma: " + cal.soma());
-        System.out.println("Subtração: " + cal.dividir());
+        System.out.println("Divisão: " + cal.dividir());
     }
 }
