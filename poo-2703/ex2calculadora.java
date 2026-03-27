@@ -61,7 +61,7 @@ class Calculadora{
     }
     //operações
     //soma
-    public double soma(){
+    public double somar(){
         return n1 + n2;
     }
     //subtração
@@ -77,6 +77,7 @@ class Calculadora{
         if (n2 == 0) {
             return "Erro: divisão por zero";
         }
+        // return    "" + (n1/n2);
         return String.valueOf(n1/n2);
     }
     //resto
@@ -88,7 +89,7 @@ class Calculadora{
 public class ex2calculadora {
     public static void main(String[] args) {
         Calculadora cal = new Calculadora(5,3);
-        System.out.println("Soma: " + cal.soma());
+        System.out.println("Soma: " + cal.somar());
         System.out.println("Divisão: " + cal.dividir());
     }
 }
