@@ -22,7 +22,7 @@ class Aluno{
     private double nota2;
     private double nota3;
     private double nota4;
-    //ler nota valida
+
     private double lerNotaValida(Scanner scan) {
         double nota;
         while (true) {
@@ -35,7 +35,7 @@ class Aluno{
         }
     }
     
-    //registro nota
+
     public void lerNotas(Scanner scan) {
     System.out.print("Digite a primeira nota: ");
     nota1 = lerNotaValida(scan);
@@ -53,7 +53,7 @@ class Aluno{
     compararNotas(nota4, nota3);
     }
 
-    //comapara notas
+
     private void compararNotas(double atual, double anterior) {
         if (atual > anterior) {
             System.out.println("A nota é maior que a anterior.");
@@ -63,11 +63,11 @@ class Aluno{
             System.out.println("A nota é igual à anterior.");
         }
     }
-    //calculo media
+
     public double calcularMedia(){
         return (nota1 + nota2 + nota3 + nota4) / 4;
     }
-    //verificar situação aluno
+
     public void verificarSituacao(){
         double media = calcularMedia();
         System.out.println("Média: " + media);
@@ -80,7 +80,7 @@ class Aluno{
     }
 
 }
-public class ex2 {
+public class ex2lista2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Aluno aluno = new Aluno();

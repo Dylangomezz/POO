@@ -32,7 +32,7 @@ class Identificador{
     }
 }
 
-public class ex1 {
+public class ex1lista2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Identificador identificador = new Identificador();
